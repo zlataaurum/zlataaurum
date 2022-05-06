@@ -1,0 +1,104 @@
+.form-container {
+    height: 600px;
+    width: 900px;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(#fff, rgb(225, 255, 236))
+}
+.input-field {
+    border: 1px solid black;
+    background-color: #fff;
+  
+}
+
+.input-field>label:not(.label-icon).active {
+    transform: translateY(-16px) scale(0.8);
+}
+
+.validate.form-name#form-name {
+    margin-bottom: 4px;
+}
+
+.textarea {
+    overflow-y: scroll;
+    position: relative;
+    top: -40px;
+    background-color: #fff;
+}
+
+.submitButton {
+    position: absolute;
+    bottom: 330px;
+    left: 700px;
+    cursor: pointer;
+}
+.cancelButton {
+  position: absolute;
+  bottom: 330px;
+  left: 797px; 
+  cursor: pointer;
+}
+
+.add-file {
+  position: absolute;
+  bottom: 330px;
+  left: 22px; 
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+color:rgb(132, 26, 26);
+font-weight: bold;
+border: 2px solid black;
+background-color: #fff;
+}
+
+.submitButton:hover {
+  color:#01370d;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+:focus-visible {
+  outline: #144b20 auto 1px;
+}
+
+
+
+
+
+
+
+
+
+/* label color */
+.input-field label {
+    color: black !important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #144b20 !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #144b20 !important;
+    box-shadow: 0 1px 0 0 #144b20 !important;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #757575;
+    box-shadow: 0 1px 0 0 #757575;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #757575;
+  }
+
+  
