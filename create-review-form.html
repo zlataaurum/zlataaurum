@@ -19,7 +19,7 @@
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s4">
-                        <input id="form-name" type="text">
+                        <input id="form-name" type="text" maxlength="40">
                         <label for="form-name">Название</label>
                     </div>
                 </div>
@@ -30,9 +30,10 @@
             <textarea id="text-review" name="text" rows="10" cols="20" style="min-width: 856px; max-width: 856px; max-height: 400px; min-height:200px;" placeholder="Сегодня я купил Iphone 13 Pro Max..."></textarea>
         </div>
         <div class="form-button row">
-            <input type="submit" class="submitButton" value="Сохранить">
-            <input type="button" class="cancelButton" value="Отменить" onclick="history.go(-1)">
-            <input type="file" class="add-file" value="Добавить">
+             <span class="add-file"><input type="file" class="add-file" value="Добавить"></span>
+             <span class="subm-canc"><input type="submit" class="submitButton" value="Сохранить">
+            <input type="button" class="cancelButton" value="Отменить" onclick="history.go(-1)"></span>
+        </div>
         </div>
 </body>
 

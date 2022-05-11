@@ -5,12 +5,14 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 15px;
-    background-image: linear-gradient(#fff, rgb(225, 255, 236))
+    padding-right: 20px;
+    background-image: linear-gradient(#fff, rgb(102, 102, 102));
+    font-family: 'Neucha', cursive;
+    position: relative;
 }
 .input-field {
     border: 1px solid black;
     background-color: #fff;
-  
 }
 
 .input-field>label:not(.label-icon).active {
@@ -22,30 +24,38 @@
 }
 
 .textarea {
-    overflow-y: scroll;
     position: relative;
     top: -40px;
     background-color: #fff;
 }
 
 .submitButton {
-    position: absolute;
-    bottom: 330px;
-    left: 700px;
-    cursor: pointer;
+  cursor: pointer;
+  font-family: 'Neucha', cursive;
 }
 .cancelButton {
-  position: absolute;
-  bottom: 330px;
-  left: 797px; 
   cursor: pointer;
+  font-family: 'Neucha', cursive;
 }
 
 .add-file {
-  position: absolute;
-  bottom: 330px;
-  left: 22px; 
   cursor: pointer;
+  font-family: 'Neucha', cursive;
+  padding-left: 5px;
+}
+
+.add-file:hover {
+  transform: scale(1.1);
+}
+
+.subm-canc {
+  padding-left: 330px;
+}
+
+
+.form-button.row {
+  position: absolute;
+  bottom: 0px;
 }
 
 .cancelButton:hover {
@@ -53,17 +63,20 @@ color:rgb(132, 26, 26);
 font-weight: bold;
 border: 2px solid black;
 background-color: #fff;
+transform: scale(1.1);
 }
 
 .submitButton:hover {
-  color:#01370d;
+  color:#252525;
   font-weight: bold;
   background-color: #fff;
+  transform: scale(1.1);
 }
 
 :focus-visible {
-  outline: #144b20 auto 1px;
+  outline: #494b49 auto 1px;
 }
+
 
 
 

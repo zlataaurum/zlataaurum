@@ -4,6 +4,7 @@ body
     padding: 0;  
     background-color:#5d666a;  
     font-family: 'Arial';  
+    font-family:'Neucha', cursive;
 }  
 .login{  
         width: 382px;  
@@ -50,9 +51,13 @@ label{
     border-radius: 17px;  
     padding-left: 7px;  
     color: rgb(52, 52, 81);  
-  
-  
+    cursor: pointer;
 }  
+
+#log:hover {
+    font-weight: 800;
+}
+
 span{  
     color: rgb(255, 255, 255);  
     font-size: 17px;  
@@ -69,4 +74,8 @@ input#log {
 
 form#login {
    padding-left: 40px;
+}
+
+.forget-pass {
+    float: right;
 }

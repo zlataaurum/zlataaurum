@@ -20,6 +20,10 @@ console.log('Loaded');
 showLimitedContent();
 populateValues(5);
 
+document.addEventListener('DOMContentLoaded', function() {
+    elems = document.querySelectorAll('.modal');
+    instances = M.Modal.init(elems);
+  });
 
 
 //for Submit in a html create-review-form
