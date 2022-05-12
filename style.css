@@ -55,6 +55,7 @@
 
 .review-image>img {
     height: 260px;
+    width: 260px;
     border: 1px solid black;
     cursor: pointer;
     overflow: auto;
